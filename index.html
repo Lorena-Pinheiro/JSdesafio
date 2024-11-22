@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="content">
+        <form id="user-input">
+            <label for="text">Text</label>
+            <input type="text" name="text" id="text">
+    
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+            
+            <label for="backgroundColor">Background color</label>
+            <input type="color" name="backgroundColor" id="backgroundColor">
+    
+            <label for="height">Height</label>
+            <input type="range" name="height" id="height" min="0" max="500">
+    
+            <label for="width">Width</label>
+            <input type="range" name="width" id="width" min="0" max="200">
+    
+            <label for="border">Border</label>
+            <input type="text" name="border" id="border">
+            
+            <label for="borderRadius">Border-radius</label>
+            <input type="range" name="borderRadius" id="borderRadius" min="0" max="20">
+    
+            <label for="fontSize">Font-size</label>
+            <input type="number" name="fontSize" id="fontSize">
+
+            <label for="fontFamily">Font-Family</label>
+            <select name="fontFamily" id="fontFamily">
+                <option value="Serif">Serif</option>
+                <option value="Sans-Serif">Sans-Serif</option>
+                <option value="Monospace">Monospace</option>
+                <option value="Cursive">Cursive</option>
+                <option value="Fantasy">Fantasy</option>
+            </select>
+        </form>
+        
+        <section class="botao-exemplo">
+            <button class="btn">Botao</button>
+        </section>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
